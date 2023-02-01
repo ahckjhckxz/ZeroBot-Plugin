@@ -9,7 +9,7 @@ import (
 	"github.com/fumiama/go-registry"
 )
 
-//go:generate go run github.com/ahckjhckxz/ZeroBot-Plugin/kanban/gen
+//go:generate go run github.com/FloatTech/ZeroBot-Plugin/kanban/gen
 
 var once sync.Once
 

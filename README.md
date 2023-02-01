@@ -16,7 +16,7 @@
   [![oicq](https://img.shields.io/badge/OneBot-OICQ-green.svg?style=social&logo=appveyor)](https://github.com/takayama-lily/oicq)
   [![mirai](https://img.shields.io/badge/OneBot-Mirai-green.svg?style=social&logo=appveyor)](https://github.com/mamoe/mirai)
 
-  [![go](https://goreportcard.com/badge/github.com/ahckjhckxz/ZeroBot-Plugin?style=flat-square&logo=go)](https://goreportcard.com/badge/github.com/ahckjhckxz/ZeroBot-Plugin)
+  [![go](https://goreportcard.com/badge/github.com/FloatTech/ZeroBot-Plugin?style=flat-square&logo=go)](https://goreportcard.com/badge/github.com/FloatTech/ZeroBot-Plugin)
   [![onebot](https://img.shields.io/badge/onebot-v11-black?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHAAAABwCAMAAADxPgR5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAxQTFRF////29vbr6+vAAAAk1hCcwAAAAR0Uk5T////AEAqqfQAAAKcSURBVHja7NrbctswDATQXfD//zlpO7FlmwAWIOnOtNaTM5JwDMa8E+PNFz7g3waJ24fviyDPgfhz8fHP39cBcBL9KoJbQUxjA2iYqHL3FAnvzhL4GtVNUcoSZe6eSHizBcK5LL7dBr2AUZlev1ARRHCljzRALIEog6H3U6bCIyqIZdAT0eBuJYaGiJaHSjmkYIZd+qSGWAQnIaz2OArVnX6vrItQvbhZJtVGB5qX9wKqCMkb9W7aexfCO/rwQRBzsDIsYx4AOz0nhAtWu7bqkEQBO0Pr+Ftjt5fFCUEbm0Sbgdu8WSgJ5NgH2iu46R/o1UcBXJsFusWF/QUaz3RwJMEgngfaGGdSxJkE/Yg4lOBryBiMwvAhZrVMUUvwqU7F05b5WLaUIN4M4hRocQQRnEedgsn7TZB3UCpRrIJwQfqvGwsg18EnI2uSVNC8t+0QmMXogvbPg/xk+Mnw/6kW/rraUlvqgmFreAA09xW5t0AFlHrQZ3CsgvZm0FbHNKyBmheBKIF2cCA8A600aHPmFtRB1XvMsJAiza7LpPog0UJwccKdzw8rdf8MyN2ePYF896LC5hTzdZqxb6VNXInaupARLDNBWgI8spq4T0Qb5H4vWfPmHo8OyB1ito+AysNNz0oglj1U955sjUN9d41LnrX2D/u7eRwxyOaOpfyevCWbTgDEoilsOnu7zsKhjRCsnD/QzhdkYLBLXjiK4f3UWmcx2M7PO21CKVTH84638NTplt6JIQH0ZwCNuiWAfvuLhdrcOYPVO9eW3A67l7hZtgaY9GZo9AFc6cryjoeFBIWeU+npnk/nLE0OxCHL1eQsc1IciehjpJv5mqCsjeopaH6r15/MrxNnVhu7tmcslay2gO2Z1QfcfX0JMACG41/u0RrI9QAAAABJRU5ErkJggg==)](https://t.me/zerobotplugin)
   [![zerobot](https://img.shields.io/badge/zerobot-v1.6.7-black?style=flat-square&logo=go)](https://github.com/wdvxdr1123/ZeroBot)
   [![license](https://img.shields.io/github/license/FloatTech/ZeroBot-Plugin.svg?style=flat-square&logo=gnu)](https://raw.githubusercontent.com/FloatTech/ZeroBot-Plugin/master/LICENSE)
@@ -36,7 +36,7 @@
 
 > 如果您不知道什么是 [OneBot](https://github.com/howmanybots/onebot) 或不希望运行多个程序，还可以直接前往 [gocqzbp](https://github.com/FloatTech/gocqzbp) 的 [Release](https://github.com/FloatTech/gocqzbp/releases) 页面下载单一可执行文件或前往 [Packages](https://github.com/FloatTech/gocqzbp/pkgs/container/gocqzbp) 页面使用`docker`，运行后按提示登录即可。
 
-> 如果您对开发插件感兴趣，欢迎加入[ZeroBot-Plugin-Playground](https://github.com/ahckjhckxz/ZeroBot-Plugin-Playground)
+> 如果您对开发插件感兴趣，欢迎加入[ZeroBot-Plugin-Playground](https://github.com/FloatTech/ZeroBot-Plugin-Playground)
 
 ## 命令行参数
 > `[]`代表是可选参数
@@ -139,9 +139,9 @@ zerobot [-h] [-n nickname] [-t token] [-u url] [-p prefix] [-d|w] [-c|s config.j
 <details>
   <summary>动态加载插件</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin-Dynamic/dyloader"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin-Dynamic/dyloader"`
 
-  - 本功能需要`cgo`，故已分离出主线。详见[ZeroBot-Plugin-Dynamic](https://github.com/ahckjhckxz/ZeroBot-Plugin-Dynamic)
+  - 本功能需要`cgo`，故已分离出主线。详见[ZeroBot-Plugin-Dynamic](https://github.com/FloatTech/ZeroBot-Plugin-Dynamic)
 
 </details>
 
@@ -149,7 +149,7 @@ zerobot [-h] [-n nickname] [-t token] [-u url] [-p prefix] [-d|w] [-c|s config.j
 <details>
   <summary>聊天</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/chat"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/chat"`
 
   - [x] [BOT名字]
 
@@ -167,7 +167,7 @@ zerobot [-h] [-n nickname] [-t token] [-u url] [-p prefix] [-d|w] [-c|s config.j
 <details>
   <summary>睡眠管理</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/sleep_manage"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleep_manage"`
 
   - [x] 早安 | 晚安
 
@@ -175,7 +175,7 @@ zerobot [-h] [-n nickname] [-t token] [-u url] [-p prefix] [-d|w] [-c|s config.j
 <details>
   <summary>ATRI</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/atri"
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/atri"
   `
   - [x] 具体指令看 /用法 atri
 
@@ -185,7 +185,7 @@ zerobot [-h] [-n nickname] [-t token] [-u url] [-p prefix] [-d|w] [-c|s config.j
 <details>
   <summary>群管</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/manager"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/manager"`
 
   - [x] 禁言[@xxx][分钟]
 
@@ -347,7 +347,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>ahsai tts</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/ahsai"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai"`
 
   - [x] 使[ 伊織弓鶴 | 紲星あかり | 結月ゆかり | 京町セイカ |東北きりたん | 東北イタコ | ついなちゃん標準語 | ついなちゃん関西弁 | 音街ウナ | 琴葉茜 | 吉田くん | 民安ともえ | 桜乃そら | 月読アイ | 琴葉葵 | 東北ずん子 | 月読ショウタ | 水奈瀬コウ ]说(日语)
 
@@ -355,7 +355,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>AIfalse</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/ai_false"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/ai_false"`
 
   - [x] 查询计算机当前活跃度: [检查身体 | 自检 | 启动自检 | 系统状态]
 
@@ -365,7 +365,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>ai绘图</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/aipaint"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/aipaint"`
 
   - [x] [ ai绘图 | 生成色图 | 生成涩图 | ai画图 ] xxx
 
@@ -389,7 +389,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>AIWife</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/aiwife"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife"`
 
   - [x] waifu | 随机waifu(从[100000个AI生成的waifu](https://www.thiswaifudoesnotexist.net/)中随机一位)
 
@@ -397,7 +397,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>支付宝到账语音</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/alipayvoice"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/alipayvoice"`
 
   - [x] 支付宝到账 1
 
@@ -405,7 +405,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>触发者撤回时也自动撤回</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/autowithdraw"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/autowithdraw"`
 
   - [x] 撤回一条消息
 
@@ -413,7 +413,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>base16384加解密</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/b14"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/b14"`
 
   - [x] 加密xxx
 
@@ -427,7 +427,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>百度一下</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/baidu"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/baidu"`
 
   - [x] 百度下[xxx]
 
@@ -435,7 +435,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>百度内容审核</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/baiduaudit"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/baiduaudit"`
 
   - [x] 获取BDAkey
 
@@ -480,7 +480,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>base64卦加解密</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/base64gua"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/base64gua"`
 
   - [x] 六十四卦加密xxx
 
@@ -494,7 +494,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>base天城文加解密</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/baseamasiro"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/baseamasiro"`
 
   - [x] 天城文加密xxx
 
@@ -508,7 +508,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>bilibili</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/bilibili"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/bilibili"`
 
   - [x] >vup info [xxx]
 
@@ -528,7 +528,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>b站动态、专栏、视频、直播解析</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/bilibili"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/bilibili"`
 
   - [x] t.bilibili.com/642277677329285174 | bilibili.com/read/cv17134450 | bilibili.com/video/BV13B4y1x7pS | live.bilibili.com/22603245
 
@@ -536,7 +536,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>b站动态、直播推送,需要配合job一起使用</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/bilibili"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/bilibili"`
 
   - [x] 添加b站订阅[uid|name]
 
@@ -554,7 +554,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>书评</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/book_review"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/book_review"`
 
   - [x] 书评[xxx]
 
@@ -564,7 +564,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>打断复读</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/breakrepeat"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/breakrepeat"`
 
   - [x] (打断三次以上的复读)
 
@@ -572,7 +572,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>藏头诗</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/cangtoushi"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/cangtoushi"`
 
   - [x] 藏头诗[xxx]
 
@@ -582,7 +582,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>选择困难症帮手</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/choose"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/choose"`
 
   - [x] 选择[选择项1]还是[选项2]还是[更多选项]
 
@@ -590,7 +590,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>抽象话</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/chouxianghua"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/chouxianghua"`
 
   - [x] 抽象翻译[xxx]
 
@@ -598,7 +598,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>英文字符翻转</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/chrev"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/chrev"`
 
   - [x] 翻转 I love you
 
@@ -606,7 +606,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>coser</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/coser" `
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/coser" `
 
   - [x] coser
 
@@ -614,7 +614,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>cp短打</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/cpstory"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/cpstory"`
 
   - [x] 组cp[@xxx][@xxx]
 
@@ -624,7 +624,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>DeepDanbooru二次元图标签识别</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/danbooru"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/danbooru"`
 
   - [x] 鉴赏图片[图片]
 
@@ -632,7 +632,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>嘉然</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/diana"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/diana"`
 
   - [x] 小作文
 
@@ -644,7 +644,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>女装</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/dress"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/dress"`
 
   - [x] 女装
 
@@ -658,7 +658,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>漂流瓶</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/drift_bottle"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/drift_bottle"`
 
   - [x] @Bot pick (随机捞一个漂流瓶)
 
@@ -668,7 +668,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>合成emoji</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/emojimix"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/emojimix"`
 
   - [x] [emoji][emoji]
 
@@ -676,7 +676,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>好友申请及群聊邀请事件处理</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/event"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/event"`
 
   - [x] [开启|关闭]自动同意[申请|邀请|主人]
 
@@ -688,14 +688,14 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>渲染任意文字到图片</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/font"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/font"`
 
   - [x] (用[终末体|终末变体|紫罗兰体|樱酥体|Consolas体|苹方体])渲染文字xxx
 </details>
 <details>
   <summary>每日运势</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/fortune"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/fortune"`
 
   - [x] 运势 | 抽签
 
@@ -705,7 +705,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>笑话</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/funny"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/funny"`
 
   - [x] 讲个笑话[@xxx|qq号|人名] | 夸夸[@xxx|qq号|人名]
 
@@ -713,7 +713,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>原神抽卡</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/genshin"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/genshin"`
 
   - [x] 切换原神卡池
 
@@ -723,7 +723,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>gif</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/gif"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/gif"`
 
   - [x] 爬[@xxx]
 
@@ -731,13 +731,13 @@ print("run[CQ:image,file="+j["img"]+"]")
 
   - [x] 搓[@xxx]
 
-  - 注：更多指令见项目 --> https://github.com/ahckjhckxz/ZeroBot-Plugin-Gif
+  - 注：更多指令见项目 --> https://github.com/FloatTech/ZeroBot-Plugin-Gif
 
 </details>
 <details>
   <summary>GitHub仓库搜索</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/github"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/github"`
 
   - [x] >github [xxx]
 
@@ -747,7 +747,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>猜歌</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/guessmusic"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/guessmusic"`
 
   猜歌插件（该插件依赖ffmpeg）
 	
@@ -780,7 +780,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>黑丝</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/heisi"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/heisi"`
 
   - [x] 来点黑丝/白丝/jk/巨乳/足控/网红
 
@@ -788,7 +788,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>炉石</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/hs"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/hs"`
 
   - [x] 搜卡[xxxx]
 
@@ -800,7 +800,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>百人一首</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/hyaku"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/hyaku"`
 
   - [x] 百人一首
 
@@ -810,7 +810,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>关键字搜图</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/image_finder"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/image_finder"`
 
   - [x] 来张 [xxx]
 
@@ -818,7 +818,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>注入指令</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/inject"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/inject"`
 
   - [x] run[CQ码]
 
@@ -826,7 +826,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>煎蛋网无聊图</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/jandan"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/jandan"`
 
   - [x] 来份[屌|弔|吊]图
 
@@ -836,7 +836,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>兽语加密(嗷呜~)</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/jiami"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/jiami"`
 
   - [x] 兽语加密xxx
 
@@ -846,7 +846,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>小鸡词典</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/jikipedia"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/jikipedia"`
 
   - [x] [查梗|小鸡词典][梗]
 
@@ -854,7 +854,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>日语听力学习材料</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/jptingroom"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/jptingroom"`
 
   - [x] 随机日语听力
   
@@ -868,7 +868,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>绝绝子</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/juejuezi"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/juejuezi"`
 
   - [x] 喝奶茶绝绝子 | 绝绝子吃饭
 
@@ -876,7 +876,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>lolicon</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/lolicon"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/lolicon"`
 
   - [x] 随机图片
 
@@ -894,7 +894,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>MagicPrompt-Stable-Diffusion吟唱提示</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/magicprompt"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/magicprompt"`
 
   - [x] 吟唱提示[xxxx]
 
@@ -902,7 +902,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>简易midi音乐制作</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/midicreate"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/midicreate"`
 
   - [x] midi制作 CCGGAAGR FFEEDDCR GGFFEEDR GGFFEEDR CCGGAAGR FFEEDDCR
 
@@ -924,7 +924,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>日韩 VITS 模型拟声</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/moegoe"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/moegoe"`
 
   - [x] 让[宁宁|爱瑠|芳乃|茉子|丛雨|小春|七海]说(日语)
 
@@ -936,7 +936,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>摸鱼</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/moyu"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/moyu"`
 
   - [x] /启用 moyu
 
@@ -951,7 +951,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>摸鱼人日历</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/moyu_calendar"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/moyu_calendar"`
 
   - [x] /启用 moyucalendar
 
@@ -966,7 +966,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>点歌</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/music"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/music"`
 
   - [x] 点歌[xxx]
 
@@ -980,7 +980,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>本地涩图</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/nativesetu"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/nativesetu"`
 
   - [x] 本地[xxx]
 
@@ -998,7 +998,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>抽wife</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/nativewife"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/nativewife"`
 
   - [x] 抽wife[@xxx]
 
@@ -1014,7 +1014,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>拼音首字母释义工具</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/nbnhhsh"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/nbnhhsh"`
 
   - [x] ?? [缩写]
 
@@ -1022,7 +1022,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>日语语法学习</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/nihongo"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/nihongo"`
 
   - [x] 日语语法 [xxx] (使用tag随机)
   
@@ -1032,7 +1032,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>小说</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/novel" `
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/novel" `
 
   - [x] 小说[xxx]
 
@@ -1046,7 +1046,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>nsfw图片识别</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/nsfw"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/nsfw"`
 
   - [x] nsfw打分[图片]
 
@@ -1056,7 +1056,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>浅草寺求签</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/omikuji"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/omikuji"`
 
   - [x] 求签 | 占卜
 
@@ -1066,7 +1066,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>一群一天一夫一妻制群老婆</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/qqwife"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/qqwife"`
 
   - 引入好感度系统，好感度越高，自由恋爱成功率越高
   
@@ -1098,7 +1098,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>权重查询</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/quan"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/quan"`
 
   - 来看看大家的账号分吧~据说越高越不容易封号哦
 
@@ -1110,7 +1110,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>qq空间表白墙</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/qzone"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/qzone"`
 
   - [x] 登录QQ空间 (Cookie过期很快, 要经常登录)
   
@@ -1126,7 +1126,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>Real-CUGAN清晰术</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/realcugan"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/realcugan"`
 
   - [x] 清晰术(双重吟唱|三重吟唱|四重吟唱)(强力术式|中等术式|弱术式|不变式|原式)[图片]
 
@@ -1134,7 +1134,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>投胎</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/reborn"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/reborn"`
 
   - [x] reborn
 
@@ -1144,7 +1144,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>在线代码运行</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/runcode"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/runcode"`
 
   - [x] >runcode [language] help
 
@@ -1156,7 +1156,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>搜图</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/saucenao"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/saucenao"`
 
   - [x] 以图搜图 | 搜索图片 | 以图识图[图片]
 
@@ -1168,7 +1168,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>叔叔的AI二次元图片放大</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/scale"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/scale"`
 
   - [x] 放大图片[图片]
 
@@ -1176,7 +1176,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>签到得分</summary>
 
-`import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/score"` 
+`import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/score"` 
 
   - [x] 签到
   - [x] 获得签到背景[@xxx] | 获得签到背景
@@ -1190,7 +1190,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>沙雕app</summary>
 
-`import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/shadiao"`
+`import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/shadiao"`
 
 - [x] 哄我
 - [x] 渣我
@@ -1204,7 +1204,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>shindan</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/shindan"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/shindan"`
 
   - [x] 今天是什么少女[@xxx]
 
@@ -1220,7 +1220,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>抽塔罗牌</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/tarot"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/tarot"`
 
   - [x] 抽[塔罗牌|大阿卡纳|小阿卡纳]
   - [x] 抽n张[塔罗牌|大阿卡纳|小阿卡纳]
@@ -1231,7 +1231,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>舔狗日记</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/tiangou"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/tiangou"`
 
   - [x] 舔狗日记
 
@@ -1239,7 +1239,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>搜番</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/tracemoe"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/tracemoe"`
 
   - [x] 搜番 | 搜索番剧[图片]
 
@@ -1247,7 +1247,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>翻译</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/translation"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/translation"`
 
   - [x] >TL 你好
 
@@ -1255,7 +1255,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>vits猫雷</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/vitsnyaru"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/vitsnyaru"`
 
   - [x] 让猫雷说[xxxx]
 
@@ -1263,7 +1263,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>vtb语录</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/vtb_quotation"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/vtb_quotation"`
 
   - [x] vtb语录
 
@@ -1275,7 +1275,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>钱包</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/wallet"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wallet"`
 
   - [x] 查看我的钱包
 
@@ -1285,7 +1285,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>网易云音乐热评</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/wangyiyun"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wangyiyun"`
 
   - [x] 来份网易云热评
 
@@ -1293,7 +1293,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>星际战甲</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/warframeapi"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/warframeapi"`
 
   - [x] wf时间同步
   
@@ -1310,7 +1310,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>天气/拼音查询-名言</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/wenben"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wenben"`
 
   - [x] xx天气
 
@@ -1324,7 +1324,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>百度文心AI</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/wenxinAI"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wenxinAI"`
 
   基于百度文心API的一些功能
 
@@ -1368,7 +1368,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>月幕galgame图</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/ymgal"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/ymgal"`
 
   - [x] 随机galCG
 
@@ -1384,7 +1384,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>聊天热词</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/word_count"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/word_count"`
 
   - [x] 热词 [群号] [消息数目]|热词 123456 1000
 
@@ -1392,7 +1392,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>猜单词</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/wordle"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wordle"`
 
   - [x] 个人猜单词
 
@@ -1406,11 +1406,11 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>一些游戏王插件</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/ygo"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/ygo"`
   
   ##### 白鸽API卡查
 	    
-  ###### `"github.com/ahckjhckxz/ZeroBot-Plugin/plugin/ygo/ygocdb.go"`
+  ###### `"github.com/FloatTech/ZeroBot-Plugin/plugin/ygo/ygocdb.go"`
   - [x] /ydp [xxx]
   - [x] /yds [xxx]
   - [x] /ydb [xxx]
@@ -1418,7 +1418,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 	
   ##### 集换社卡价查询
 
-  ###### `"github.com/ahckjhckxz/ZeroBot-Plugin/plugin/ygo/ygotrade.go"`
+  ###### `"github.com/FloatTech/ZeroBot-Plugin/plugin/ygo/ygotrade.go"`
   - [x] 查卡价 [卡名]
   - [x] 查卡价 [卡名] -r [稀有度 稀有度 ...]
   - [x] 查卡店  [卡名]
@@ -1429,7 +1429,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>词典匹配回复</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/thesaurus"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/thesaurus"`
 
   - [x] 切换[kimo|傲娇|可爱]词库
   - [x] 设置词库触发概率0.x (0<x<9)
@@ -1440,7 +1440,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>鬼东西</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/wtf"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf"`
 
   - [x] 鬼东西列表
 
@@ -1455,7 +1455,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>骂人</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/curse"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/curse"`
 
   - [x] 骂我
 
@@ -1465,7 +1465,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 <details>
   <summary>人工智能回复</summary>
 
-  `import _ "github.com/ahckjhckxz/ZeroBot-Plugin/plugin/ai_reply"`
+  `import _ "github.com/FloatTech/ZeroBot-Plugin/plugin/ai_reply"`
 
   - [x] @Bot 任意文本(任意一句话回复)
 
@@ -1477,12 +1477,12 @@ print("run[CQ:image,file="+j["img"]+"]")
 
 ### 1. 使用稳定版/测试版 (推荐)
 
-可以前往[Release](https://github.com/ahckjhckxz/ZeroBot-Plugin/releases)页面下载对应系统版本可执行文件，编译时开启了全部插件。您还可以选择 [gocqzbp](https://github.com/FloatTech/gocqzbp) 的 [Release](https://github.com/FloatTech/gocqzbp/releases) 或 [Package](https://github.com/FloatTech/gocqzbp/pkgs/container/gocqzbp)，它是 [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) 与本插件的合体。
+可以前往[Release](https://github.com/FloatTech/ZeroBot-Plugin/releases)页面下载对应系统版本可执行文件，编译时开启了全部插件。您还可以选择 [gocqzbp](https://github.com/FloatTech/gocqzbp) 的 [Release](https://github.com/FloatTech/gocqzbp/releases) 或 [Package](https://github.com/FloatTech/gocqzbp/pkgs/container/gocqzbp)，它是 [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) 与本插件的合体。
 
 ### 2. 本地直接运行
 
 1. 下载安装最新 [Go](https://studygolang.com/dl) 环境
-2. 下载本项目[压缩包](https://github.com/ahckjhckxz/ZeroBot-Plugin/archive/master.zip)，本地解压
+2. 下载本项目[压缩包](https://github.com/FloatTech/ZeroBot-Plugin/archive/master.zip)，本地解压
 3. 编辑 main.go 文件，内容按需修改
 4. 运行 OneBot 框架
 5. `Windows`下双击 run.bat 文件，`Linux`下使用 run.sh 运行本插件
@@ -1505,7 +1505,7 @@ print("run[CQ:image,file="+j["img"]+"]")
 2. clone 并进入本项目，下载所需包
 
 ```bash
-git clone --depth=1 https://github.com/ahckjhckxz/ZeroBot-Plugin.git
+git clone --depth=1 https://github.com/FloatTech/ZeroBot-Plugin.git
 cd ZeroBot-Plugin
 go version
 go env -w GOPROXY=https://goproxy.cn,direct
@@ -1538,6 +1538,6 @@ GOOS=linux GOARCH=mips GOMIPS=softfloat CGO_ENABLED=0 go build -ldflags "-s -w" 
 
 同时感谢以下开发者对 ZeroBot-Plugin 作出的贡献：
 
-<a href="https://github.com/ahckjhckxz/ZeroBot-Plugin/graphs/contributors">
+<a href="https://github.com/FloatTech/ZeroBot-Plugin/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=FloatTech/ZeroBot-Plugin&max=1000" />
 </a>

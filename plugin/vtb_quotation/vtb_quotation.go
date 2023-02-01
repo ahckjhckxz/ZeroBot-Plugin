@@ -24,7 +24,7 @@ import (
 	"github.com/FloatTech/zbputils/control"
 	"github.com/FloatTech/zbputils/img/text"
 
-	"github.com/ahckjhckxz/ZeroBot-Plugin/plugin/vtb_quotation/model"
+	"github.com/FloatTech/ZeroBot-Plugin/plugin/vtb_quotation/model"
 )
 
 var reg = regexp.MustCompile(".*/(.*)")

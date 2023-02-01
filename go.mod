@@ -1,4 +1,4 @@
-module github.com/ahckjhckxz/ZeroBot-Plugin
+module github.com/FloatTech/ZeroBot-Plugin
 
 go 1.19
 
@@ -94,4 +94,4 @@ replace modernc.org/sqlite => github.com/fumiama/sqlite3 v1.20.0-with-win386
 
 replace github.com/remyoudompheng/bigfft => github.com/fumiama/bigfft v0.0.0-20211011143303-6e0bfa3c836b
 
-replace github.com/FloatTech/ZeroBot-Plugin => github.com/ahckjhckxz/ZeroBot-Plugin 290ebd24a016cfd9ad6df0f14c90eafd187f845d
+replace github.com/FloatTech/ZeroBot-Plugin => github.com/FloatTech/ZeroBot-Plugin v0.0.0-20230201100407-290ebd24a016
