@@ -1,0 +1,23 @@
+{
+    "zero": {
+        "nickname": [
+            "椛椛",
+            "ATRI",
+            "atri",
+            "亚托莉",
+            "アトリ"
+        ],
+        "command_prefix": "/",
+        "super_users": [437951990],
+        "ring_len": 4096,
+        "latency": 233000000,
+        "max_process_time": 240000000000
+    },
+    "ws": [
+        {
+            "Url": "ws://127.0.0.1:6700",
+            "AccessToken": ""
+        }
+    ],
+    "wss": null
+}
